@@ -38,7 +38,9 @@ def cachipun():
     time.sleep(1)
     print('PUN')
     time.sleep(1)
-    print(f"La computadora ha usado '{Enemy_OBJ}'")
+    print(f"   Tú      Computadora")
+    print(f"'{OBJ}' vs '{Enemy_OBJ}'")
+    time.sleep(2)
 
     if Enemy_OBJ == OBJ:
         Winner = 'Empate'
