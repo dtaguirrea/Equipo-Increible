@@ -30,5 +30,3 @@ def juego_del_dado():
         print('Has perdido :(')
         return 0
     
-
-juego_del_dado()
