@@ -7,7 +7,7 @@ def cachipun():
     La computadora debe elegir una opción al azar.
     """
     while True:
-        OBJ = input("Eliga 'Piedra', 'Papel' o 'Tijera'")
+        OBJ = input("Eliga 'Piedra', 'Papel' o 'Tijera'\n")
         if OBJ.lower() == 'piedra':
             OBJ = 'Piedra'
             break
