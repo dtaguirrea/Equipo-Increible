@@ -8,6 +8,7 @@ def juego_del_dado():
     Esto genera un número al azar que se le suma a la puntuación del usuario.
     Después el computador también tiene que lanzar un dado.
     El primero en sumar 30 puntos gana.
+
     """
     puntuación_1 = 0
     puntuación_2 = 0
@@ -23,7 +24,7 @@ def juego_del_dado():
             print('La puntuación de la casa es ' + str(puntuación_2))
         
     
-    if puntuación_1 > 30:
+    if puntuación_1 >= 30:
         print('Has ganado!!')
         return 1
     else:
