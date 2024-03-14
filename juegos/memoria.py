@@ -1,6 +1,5 @@
 def memoria():
     import random
-    import time
     """
     Esta función representa el juego de memoria.
     Debes generar una secuencia de números al azar y mostrarla al usuario.
