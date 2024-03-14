@@ -6,7 +6,20 @@ def cachipun():
     Debes pedir al usuario que elija piedra, papel o tijera, y luego comparar su elección con la de la computadora.
     La computadora debe elegir una opción al azar.
     """
-    OBJ = input("Eliga 'Piedra', 'Papel' o 'Tijera'")
+    while True:
+        OBJ = input("Eliga 'Piedra', 'Papel' o 'Tijera'")
+        if OBJ.lower() == 'piedra':
+            OBJ = 'Piedra'
+            break
+        elif OBJ.lower() == 'papel':
+            OBJ = 'Papel'
+            break
+        elif OBJ.lower() == 'tijera':
+            OBJ = 'Tijera'
+            break
+        else:
+            print('Ha ocurrido un error, intente nuevamente')
+
 
     Enemy_OBJ_num = random.randint(1,3)
 
