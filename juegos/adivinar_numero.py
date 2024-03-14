@@ -7,4 +7,3 @@ def adivinar_numero():
     else:
         print("Trolleaste")
     pass
-adivinar_numero()
