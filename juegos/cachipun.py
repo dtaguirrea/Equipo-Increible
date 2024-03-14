@@ -53,6 +53,3 @@ def cachipun():
     
 
     pass
-
-while True:
-    cachipun()
