@@ -1,8 +1,10 @@
 def adivinar_par_o_impar():
+    import time
     print("Si quieres jugar par o impar, di ""Es hora de ser heroe""")
     respuesta=input()
     if respuesta!="Es hora de ser heroe":
         print("bueno pues :(")
+        time.sleep(1)
         return()
     if respuesta=="Es hora de ser heroe":
         print("¿Será par o impar?")
@@ -27,5 +29,6 @@ def adivinar_par_o_impar():
         print("Adivinaste")
     else:
         print("Manqueque")
+    time.sleep(2)
 
     

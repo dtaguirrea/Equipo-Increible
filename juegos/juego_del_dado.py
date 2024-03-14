@@ -2,6 +2,7 @@
 
 def juego_del_dado():
     import random
+    import time
 
     """
     Esta función tiene que pedirle al usuario que aprete enter para que lance un dado.
@@ -26,8 +27,10 @@ def juego_del_dado():
     
     if puntuación_1 >= 30:
         print('Has ganado!!')
+        time.sleep(2)
         return 1
     else:
         print('Has perdido :(')
+        time.sleep(2)
         return 0
     

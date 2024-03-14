@@ -65,6 +65,7 @@ def cachipun():
         print("¡HAS GANADO!")
     elif Winner == "Computadora":
         print("Has perdido :c")
-    
 
+    time.sleep(2)
+    
     pass

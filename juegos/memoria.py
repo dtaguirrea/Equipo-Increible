@@ -1,5 +1,6 @@
 def memoria():
     import random
+    import time
     """
     Esta función representa el juego de memoria.
     Debes generar una secuencia de números al azar y mostrarla al usuario.
@@ -33,9 +34,11 @@ def memoria():
 
     if us == tot:
         print('Buena memoria!')
+        time.sleep(2)
         return 1
     else:
         print('No es el numero, F')
+        time.sleep(2)
         return 0
 
 
